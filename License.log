@@ -1,0 +1,91 @@
+    ======  ======
+    Time:02/03/2017 21:24:07
+    Title: Initiate log
+    Message: 
+    Time:02/03/2017 21:24:07
+    Title: Initiate InternalManager
+    Message: Trying to Validate License
+    Time:02/03/2017 21:24:07
+    Title: Requesting EVT
+    Message: EVTP
+    Time:02/03/2017 21:24:07
+    Title: Requesting Validation
+    Message: ILMValidate
+    Time:02/03/2017 21:24:07
+    Title: LICENSER
+    Message: TRL MODE
+    Time:02/03/2017 21:24:07
+    Title: LICENSER
+    Message: DS LEFT29
+    Time:02/03/2017 21:24:07
+    Title: LICENSER
+    Message: DT MARK PASSED29.00:00:00
+    Time:02/03/2017 21:24:09
+    Title: No había ningún extremo escuchando en https://www.telerik.com/services/LicenseService/Service.svc que pudiera aceptar el mensaje. La causa suele ser una dirección o una acción SOAP incorrecta. Consulte InnerException, si está presente, para obtener más información.
+    Message: 
+Server stack trace: 
+   en System.ServiceModel.Channels.HttpOutput.WebRequestHttpOutput.GetOutputStream()
+   en System.ServiceModel.Channels.HttpOutput.Send(TimeSpan timeout)
+   en System.ServiceModel.Channels.HttpChannelFactory`1.HttpRequestChannel.HttpChannelRequest.SendRequest(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.RequestChannel.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Dispatcher.RequestChannelBinder.Request(Message message, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   en System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   en System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   en System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   en System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   en Telerik.Licensing.TestStudioLicensing.ILicenseWebUIService.ValidateUserCredentials(UserCredential credentials)
+   en Telerik.Licensing.TestStudioLicensing.LicenseWebUIServiceClient.ValidateUserCredentials(UserCredential credentials)
+   en Telerik.Licensing.Licenser.TryAuthenticateCurrentUser()
+    Time:02/03/2017 21:24:10
+    Title: Requesting Validation
+    Message: ILMValidate True
+    Time:02/03/2017 21:24:10
+    Title: Requesting Validation
+    Message: ILMValidate True Trial
+    Time:02/03/2017 21:24:10
+    Title: LICENSER
+    Message: READ REGS START
+    Time:02/03/2017 21:24:10
+    Title: LIC EXP_KEY
+    Message: NULL
+    Time:02/03/2017 21:24:10
+    Title: LICENSER
+    Message: READ REGS SUCCESS
+    Entering constructor for: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Entering Initialize() of: Telerik.CommonPackage.Telerik_CommonPackagePackage
+    Feature 'Xamarin Test Cloud Integration' is enabled for the current VSIX Xamarin.VisualStudio (4.2.63)
+    Entering constructor for: Microsoft.PythonTools.PythonToolsPackage
+    Entering Initialize() of: Microsoft.PythonTools.PythonToolsPackage
+    Entered completion command handler for typechar.
+    no completion session yet and this is a trigger char, starting model computation.
+    Entered completion command handler for typechar.
+    no completion session yet and this is NOT a trigger char, we won't have completion.
+    Entered completion command handler for typechar.
+    no completion session yet and this is NOT a trigger char, we won't have completion.
+    Entered completion command handler for typechar.
+    no completion session yet and this is NOT a trigger char, we won't have completion.
+    Entered completion command handler for typechar.
+    no completion session yet and this is NOT a trigger char, we won't have completion.
+    Entered completion command handler for typechar.
+    no completion session yet and this is NOT a trigger char, we won't have completion.
+    Web method running: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=IncludeServices&lastChangeId=180&lastChangeId64=180] (GET)connectionData[connectionData]
+    Web method response: [https://app.vssps.visualstudio.com/_apis/connectionData?connectOptions=IncludeServices&lastChangeId=180&lastChangeId64=180] (GET)connectionData[connectionData] 2969 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/connectionData?connectOptions=IncludeServices&lastChangeId=19767&lastChangeId64=19767] (GET)connectionData[connectionData]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/connectionData?connectOptions=IncludeServices&lastChangeId=19767&lastChangeId64=19767] (GET)connectionData[connectionData] 3673 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me?details=true&withattributes=false&coreattributes=Minimal%2CEmail%2CAvatar%2CDisplayName%2CAll] (GET)me[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me?details=true&withattributes=false&coreattributes=Minimal%2CEmail%2CAvatar%2CDisplayName%2CAll] (GET)me[Profile] 2944 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Locations?profilePageType=Update] (GET)Locations[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Locations?profilePageType=Update] (GET)Locations[Profile] 184 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval] (GET)ProfileRefreshInterval[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Settings/ProfileRefreshInterval] (GET)ProfileRefreshInterval[Profile] 179 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Attributes?partition=VisualStudio.14_PreferredProfile&modifiedafterrevision=549788] (GET)Attributes[Profile]
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Small] (GET)Avatar[Profile]
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Large] (GET)Avatar[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Attributes?partition=VisualStudio.14_PreferredProfile&modifiedafterrevision=549788] (GET)Attributes[Profile] 302 ms
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Small] (GET)Avatar[Profile] 733 ms
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Avatar?size=Large] (GET)Avatar[Profile] 920 ms
+    Web method running: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Attributes?partition=VisualStudio.14_PreferredProfile&withcoreattributes=true&coreattributes=Minimal%2CEmail%2CAvatar%2CDisplayName%2CAll&modifiedafterrevision=549788] (GET)Attributes[Profile]
+    Web method response: [https://app.vsspsext.visualstudio.com/_apis/Profile/Profiles/me/Attributes?partition=VisualStudio.14_PreferredProfile&withcoreattributes=true&coreattributes=Minimal%2CEmail%2CAvatar%2CDisplayName%2CAll&modifiedafterrevision=549788] (GET)Attributes[Profile] 2000 ms
